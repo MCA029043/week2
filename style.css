@@ -1,0 +1,110 @@
+body {
+    margin: 0%;
+}
+
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 3.5rem;
+    position: fixed;
+    background-color: peru;
+    z-index: 2;
+}
+.logo {
+    width: 50%;
+}
+
+div {
+    display: block;
+}
+.info {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div {
+    display: block;
+}
+.info>div {
+    font-size: 120%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+
+div {
+    display: block;
+}
+.description,p{
+    margin: 25px 0;
+    font-size: 14px;
+}
+#abt-sub {
+    position: absolute;
+    top: 90%;
+    left: 65%;
+    display: none;
+}
+.icon{
+    text-align: end;
+}
+.section1 {
+    display: flex;
+    position: relative;
+    top: 4rem;
+    padding: 0 70px 0 70px;
+    font-size:14px;
+}
+
+.PandL{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+section {
+    display: block;
+}
+
+
+.section2 {
+    height: 100px;
+    position: relative;
+    top: 4rem;
+    background-color: gray;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    width: auto;
+    padding:0 10px 0 10px;
+    height: 50px;
+    font-size: 16px;
+    margin-right: 60px;
+    border-radius: 5px;
+    border:none;
+  }
+footer {
+    position: relative;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+}
+.address{
+    color: wheat;
+    text-align: center;
+}
